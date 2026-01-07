@@ -1,5 +1,5 @@
 # Step 1: Build React app
-# Node is needed only to build, not to run
+# Node is needed only to build, not to run ... Node is required only for building React, not for serving it.
 FROM node:18-alpine AS build
 WORKDIR /app
 COPY package.json package-lock.json ./
